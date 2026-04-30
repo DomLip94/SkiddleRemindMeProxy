@@ -19,9 +19,9 @@ async function handleRequest(request) {
   const secCode = url.searchParams.get('sec_code');
   const targetUrl = url.searchParams.get('targetUrl');
 
-  if (secCode !== SECRET) {
-    return new Response('Forbidden', { status: 403 });
-  }
+  // if (secCode !== SECRET) {
+  //   return new Response('Forbidden', { status: 403 });
+  // }
 
   if (!targetUrl) {
     return new Response('Missing targetUrl parameter', { status: 400 });
