@@ -1,5 +1,5 @@
 name = "skiddle-remind-me"
-main = "src/index.js"
+main = "index.js"
 compatibility_date = "2026-04-30"
 workers_dev = true
 
