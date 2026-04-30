@@ -1,3 +1,5 @@
+//Dom
+
 const SECRET = 'X__!5S3CR37';
 
 // Simple UA rotation (optional but useful)
